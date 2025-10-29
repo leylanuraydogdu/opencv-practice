@@ -1,18 +1,12 @@
-"""
-OpenCV Eşikleme Teknikleri - Mor Gül Uygulaması
-"""
-
 import cv2
 import numpy as np
 import os
 
 def setup_dirs():
-    """Dizinleri oluştur"""
     os.makedirs('assets', exist_ok=True)
     os.makedirs('outputs', exist_ok=True)
 
 def load_image(path='assets/rose.jpg'):
-    """Görüntüyü yükle"""
     img = cv2.imread(path)
     if img is None:
         raise FileNotFoundError(f"❌ '{path}' bulunamadı!")
