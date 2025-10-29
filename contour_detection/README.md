@@ -63,14 +63,4 @@ ESC tuşuna basarak programdan çıkabilirsin.
 
 Çıkış yapıldığında sonuç görseli outputs/result.jpg olarak kaydedilir.
 
-6. Beklenen Sonuç
-Program çalıştırıldığında:
-
-Görüntüdeki nesneler tespit edilir.
-
-Her nesnenin sınırları çizilir.
-
-Her nesneye bir numara atanır.
-
-Toplam nesne sayısı ekranda görüntülenir.
 
